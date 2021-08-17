@@ -1,2 +1,2 @@
 # emoji-interpretor
-Created with CodeSandbox
+It is an emoji interpretor ,which well tell the meaning of emoji you entered
