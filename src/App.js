@@ -9,7 +9,9 @@ var emojiDictionary = {
   "❤️": " Red Heart",
   "😕": " Confused Face",
   "😠": " Angry Face",
-  "😪": "Sleepy Face"
+  "😪": "Sleepy Face",
+  "😍": "Smiling Face with Heart-Eyes",
+  "🙄": "Face with Rolling Eyes"
 };
 
 var knownEmoji = Object.keys(emojiDictionary);
@@ -22,7 +24,7 @@ export default function App() {
     var meaning = emojiDictionary[emoji];
 
     if (meaning === undefined) {
-      setMeaning("Emoji not present");
+      setMeaning("Emoji not found");
     } else {
       setMeaning(meaning);
       setInput(emoji);
